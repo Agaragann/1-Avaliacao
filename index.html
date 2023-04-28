@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+// Criar duas constante. A primeira é para os naipes e o Segundo, os valores
+
+
+const naipes = ['Valete', 'Rainha', 'Rei', 'Naipe', 'Ouros', 'Copas','Espadas']        
+const valores = ['Ás', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
+
+
+//Criar uma nova constante para fazer a fórmula para embralharar os valores. Logo em seguida, criei para o naipe
+const randomElement = valores[Math.floor(Math.random() * valores.length)];
+const randomElemen = naipes[Math.floor(Math.random() * naipes.length)];
+
+
+// Criar um alert e juntar os dois resultados da fórmula.
+alert("Seu Naipe aleatório é: " + randomElemen + "\n" + "Seu valor é: " + randomElement);
+    </script>
+</body>
+</html>
